@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STUDENT PORTAL|PDF CONVERT </title>
+  <link rel="stylesheet" href="public/css/style.css">
+</head>
+
+<body>
+  <form action="/send-email" method="post">
+    <h1>Registration Form</h1>
+    <fieldset>
+
+      <legend><span class="section">1</span>Basic Info</legend>
+
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="" value="">
+        
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="" value="">
+        
+      <label for="age">D.O.B</label>
+      <input type="date" name="age" id="" value="">
+          
+      <label>Gender: </label>
+      <input type="radio" name="gender" id="" value="Male">
+      <label for="Male" class="light">Male</label> <br>
+          
+      <input type="radio" name="gender" id="" value="Female">
+      <label for="Female" class="light">Female</label> 
+
+    </fieldset>
+
+    <fieldset>
+        
+      <legend><span class="section">2</span>Profile</legend>
+        
+      <label for="bio">Bio:</label>
+      <textarea name="bio" id="" cols="30" rows="3"></textarea>
+        
+      <label for="Stack">Interests:</label>
+        
+      <input type="checkbox" value="Web-Development" name="user_interest">
+      <label class="light" for="Development">Web-Development</label> <br>
+        
+      <input type="checkbox" value="Design" name="user_interest">
+      <label class="light" for="Design">Design</label> <br>
+        
+      <input type="checkbox" value="Project Management" name="user_interest">
+      <label class="light" for="Project Management">Project Management</label>
+
+    </fieldset>
+   
+    <button type="submit">Register</button>
+       
+  </form>
+  
+</body>
+
+</html>
