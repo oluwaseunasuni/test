@@ -4,6 +4,7 @@
   "description": "Test Email Server",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Oluwaseun Asuni",
@@ -16,5 +17,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
+  },
+  "engines": {
+    "node": "13.10.1"
   }
 }
