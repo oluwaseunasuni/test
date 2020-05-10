@@ -4,8 +4,10 @@ const nodeMailer = require('nodemailer');
 const bodyParser = require('body-parser');
 
 
+
 const app = express();
 
+var port = process.env.PORT || 3000;
 // View Engine
 app.set('view engine', 'ejs');
 
@@ -91,6 +93,6 @@ app.post('/send-email', function (req, res) {
   });
 });
 
-app.listen(3000, function () {
+app.listen(port, function () {
   console.log('Server is running');
 });
